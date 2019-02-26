@@ -2,6 +2,9 @@
 The subject is to create a BOT program to compete against other BOT's on the Filler board. The principle is simple: two players take on each other on a board, and take turns placing the piece that the master of the game (supplied in the
 form of a Ruby executable) gives them, earning points. The game stops as soon as a piece can no longer be placed.
 
+## Algotythm
+After receiving the figure, my program checks all available places for its location. It chooses the location at which the distance to the enemy as much as possible reduced. After contact with the enemy's field, the figures are placed close to his positions, surrounding him.
+
 ## Compile and execute
 1. run **make** to compile my bot (dzaporoz.filler)
 2. execute command: ./resources/filler_vm -f resources/maps/map00 -p1 ./dzaporoz.filler -p2 resources/players/abanlin.filler
