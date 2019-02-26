@@ -5,8 +5,8 @@ form of a Ruby executable) gives them, earning points. The game stops as soon as
 ## Algotythm
 After receiving the figure, my program checks all available places for its location. It chooses the location at which the distance to the enemy as much as possible reduced. After contact with the enemy's field, the figures are placed close to his positions, surrounding him.
 
-## Compile and execute
-1. run **make** to compile my bot (dzaporoz.filler)
+## Usage
+1. run **make** to compile my bot (dzaporoz.filler) and vizualisation program.
 2. execute command: ./resources/filler_vm -f resources/maps/map00 -p1 ./dzaporoz.filler -p2 resources/players/abanlin.filler
 
 ... where:
